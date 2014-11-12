@@ -63,4 +63,16 @@
              android:textColor="@color/black" />
      </LinearLayout>
 
+     <EditText
+         android:id="@+id/FileName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/LinearLayout02"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="41dp"
+         android:ems="10" >
+
+         <requestFocus />
+     </EditText>
+
 </RelativeLayout>
